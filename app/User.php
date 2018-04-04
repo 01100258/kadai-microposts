@@ -77,4 +77,6 @@ class User extends Model implements AuthenticatableContract,
         return Micropost::whereIn('user_id', $follow_user_ids);
     }
     
+    
+    
 }
